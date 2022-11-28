@@ -1,3 +1,9 @@
+cmake_minimum_required(VERSION 3.12.4)
+
+# Set project data
+set(PROJECT_NAME "EEZ_FRAMEWORK")
+set(BUILD_NUMBER "0")
+
 # eez-framework
 include_directories(
     eez-framework/src
